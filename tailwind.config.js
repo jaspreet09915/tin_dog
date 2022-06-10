@@ -11,11 +11,12 @@ module.exports = {
       },
       colors:{
         'pink-custom-dark':'#ff4c68',
-        'pink-custom-normal':'#ef8172'
+        'pink-custom-normal':'#ef8172',
+        'pink-custom-bright':'#f83f5b'
       }
       ,
-      fontSize:{
-         
+      borderWidth:{
+         '1' :'1px'
       }
     },
   },

@@ -4,7 +4,7 @@ import {BsApple} from 'react-icons/bs';
 import {IoLogoGooglePlaystore} from 'react-icons/io5';
 const NavBarBottomElement = () => {
   return (
-    <div className="1st  "   style={{backgroundColor : "#f83f5b" , height: '36rem'}} >
+    <div className="1st bg-pink-custom-bright "   style={{ height: '36rem'}} >
         <div className="w-3/4  flex flex-row mx-32 pt-7 ">
             <div className=" ml-16 ">
                 <h1 className="font-bold text-6xl pt-10 text-white w-3/4 -mr-28 leading-relaxed  ">Meet new and interesting dogs nearby.</h1>

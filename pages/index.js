@@ -2,9 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import AdvantageOfApp from '../Components/AdvantageOfApp'
 import Carousal from '../Components/Carousal'
+import DownloadOurApp from '../Components/DownloadOurApp'
 import Footer from '../Components/Footer'
 import Navbar from '../Components/Navbar'
 import NavBarBottomElement from '../Components/NavBarBottomElement'
+import PriceCart from '../Components/PriceCart'
 
 export default function Home() {
   return (
@@ -20,8 +22,8 @@ export default function Home() {
       <NavBarBottomElement/>
       <AdvantageOfApp/>
       <Carousal/>
-      <div className="4th"></div>
-      <div className="5th"></div>
+      <PriceCart/>
+      <DownloadOurApp/>
       </main>
       <Footer/>
     </div>
